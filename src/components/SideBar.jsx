@@ -1,18 +1,25 @@
 import { Link } from "react-router-dom";
-import '../styles/sidebar.css'; // Asegúrate de tener este archivo CSS
-import Buscador from "./Buscador";
-const SideBar = () => {
+import Buscador from '../components/Buscador';
+import '../styles/sidebar.css';
 
-    const categorias = ['Aventura', 'Ciencia Ficción', 'Fantasia', 'Horror', 'Romance'];
+const SideBar = () => {
+    const categorias = [
+        { nombre: 'Aventura', ruta: 'aventura' },
+        { nombre: 'Ciencia Ficción', ruta: 'csifi' },
+        { nombre: 'Fantasia', ruta: 'fantasia' },
+        { nombre: 'Horror', ruta: 'horror' },
+        { nombre: 'Romance', ruta: 'romance' }
+    ];
+
     return (
         <div className="home-page">
             <aside className="sidebar">
-                <Buscador />
-                <h2 className="sidebar__title">Categorias:</h2>
+                 <Buscador/>
+                <h2 className="sidebar__title">Categorías:</h2>
                 <nav className="sidebar__menu">
                     {categorias.map((categoria) => (
-                        <Link key={categoria} to={`/cines/${categoria}`} className="sidebar__link">
-                            {categoria.charAt(0).toUpperCase() + categoria.slice(1)}
+                        <Link key={categoria.ruta} to={`/category/${categoria.ruta}`} className="sidebar__link">
+                            {categoria.nombre}
                         </Link>
                     ))}
                 </nav>

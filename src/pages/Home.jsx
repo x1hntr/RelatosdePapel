@@ -1,15 +1,23 @@
+import { useParams } from 'react-router-dom';
 import Libro from '../components/Libro';
 import Sidebar from '../components/SideBar';
+import useBooks from '../hooks/useBooks';
+import '../styles/home.css';
 
-import '../styles/home.css'; // Asegúrate de tener este archivo CSS
 const Home = () => {
+    const {categoria} = useParams();
+    const {books, loading} = useBooks(categoria);
 
     return (
         <div className="home-page">
             <Sidebar />
             <main className="home-page__content">
-                <h1>Los más vendidos: </h1>
-                <Libro/>
+                 <h1>{categoria ? `Categoría: ${categoria}` : 'Los más vendidos:'}</h1>
+                {loading ? (
+                    <p>Cargando libros...</p>
+                ) : (
+                    <Libro className="libro__imagen" libros={books} />
+                )}
             </main>
         </div>
     );

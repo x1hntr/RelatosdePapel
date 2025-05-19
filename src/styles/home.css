@@ -8,3 +8,10 @@
     flex-grow: 1;
     padding: 2rem;
 }
+
+.libro__imagen {
+  width: 80px!important;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}

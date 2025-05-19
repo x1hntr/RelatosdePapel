@@ -1,37 +1,47 @@
 export const books = [
     {
         id: 1,
+        category: 5,
         name: "Orgullo y prejuicio",
         author: "Jane Austen",
         summary: "Elizabeth Bennet y el reservado Sr. Darcy deben superar malentendidos, prejuicios y clases sociales para poder amarse sinceramente.",
+        year: 2024,
         price: 11,
     },
     {
         id: 2,
+        category: 5,
         name: "Los puentes de Madison County",
         author: "Robert James Waller",
         summary: "Una breve pero intensa historia de amor entre una mujer casada y un fotógrafo que llega al pueblo para retratar los puentes locales.",
+        year: 2024,
         price: 12,
     },
     {
         id: 3,
+        category: 5,
         name: "Bajo la misma estrella",
         author: "John Green",
         summary: "Hazel y Gus, dos adolescentes con cáncer, se enamoran mientras enfrentan sus realidades con valentía, humor y esperanza.",
+        year: 2024,
         price: 10,
     },
     {
         id: 4,
+        category: 5,
         name: "Posdata: Te amo",
         author: "Cecelia Ahern",
         summary: "Tras la muerte de su esposo, Holly empieza a recibir cartas que él escribió antes de morir, ayudándola a sanar y redescubrir la vida.",
+        year: 2024,
         price: 13,
     },
     {
         id: 5,
+        category: 5,
         name: "Un paseo para recordar",
         author: "Nicholas Sparks",
         summary: "Un joven rebelde se enamora de la hija del pastor, una chica tranquila con un secreto que cambiará sus vidas para siempre.",
+        year: 2024,
         price: 9,
     }
 ];

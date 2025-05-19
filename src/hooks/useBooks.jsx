@@ -25,7 +25,7 @@ const useBooks = (category) => {
                     fallbackBooks = booksFantasy;
                 } else if (category === 'horror') {
                     fallbackBooks = booksHorror;
-                } else if (category === 'Romance') {
+                } else if (category === 'romance') {
                     fallbackBooks = booksRomance;
                 }
                 setBooks(fallbackBooks);
