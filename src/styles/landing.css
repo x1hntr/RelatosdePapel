@@ -1,0 +1,44 @@
+.landing {
+  text-align: center;
+  padding: 4rem;
+  background-color: #1e1e2f;
+  margin: 10%;
+  border-radius: 2%;
+}
+
+.landing__titulo {
+  font-size: 2rem;
+  color: white;
+}
+
+.landing__descripcion {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.landing__boton {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #1e1e2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.landing__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing__logo-img {
+  max-height: 120px;
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  object-fit: contain;
+}

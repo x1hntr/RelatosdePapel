@@ -1,0 +1,37 @@
+export const books = [
+    {
+        id: 1,
+        name: "Dune",
+        author: "Frank Herbert",
+        summary: "En un futuro lejano, Paul Atreides lucha por sobrevivir en el desértico planeta Arrakis, donde el control de una poderosa especia decide el destino del universo.",
+        price: 14,
+    },
+    {
+        id: 2,
+        name: "1984",
+        author: "George Orwell",
+        summary: "En una sociedad totalitaria, Winston Smith desafía al Gran Hermano y lucha por la libertad de pensamiento en un mundo controlado por la vigilancia y la represión.",
+        price: 11,
+    },
+    {
+        id: 3,
+        name: "Fahrenheit 451",
+        author: "Ray Bradbury",
+        summary: "En un futuro donde los libros están prohibidos, un bombero encargado de quemarlos empieza a cuestionar el sistema y a buscar conocimiento prohibido.",
+        price: 10,
+    },
+    {
+        id: 4,
+        name: "Fundación",
+        author: "Isaac Asimov",
+        summary: "Un matemático predice la caída de un imperio galáctico y crea una fundación para preservar el conocimiento y reducir la futura edad oscura.",
+        price: 13,
+    },
+    {
+        id: 5,
+        name: "El juego de Ender",
+        author: "Orson Scott Card",
+        summary: "Un niño prodigio es entrenado en una escuela militar espacial para liderar la defensa de la Tierra contra una raza alienígena.",
+        price: 12,
+    }
+];

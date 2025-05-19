@@ -1,0 +1,10 @@
+.home-page {
+    display: flex;
+    min-height: 100%;
+    font-family: sans-serif;
+}
+
+.home-page__content {
+    flex-grow: 1;
+    padding: 2rem;
+}
