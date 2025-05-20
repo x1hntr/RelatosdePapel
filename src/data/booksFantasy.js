@@ -6,7 +6,9 @@ export const books = [
         author: "J.R.R. Tolkien",
         summary: "Un joven hobbit llamado Frodo emprende una peligrosa misión para destruir un anillo mágico que podría traer el fin del mundo si cae en manos equivocadas.",
         year: 2024,
+        language: 'Español',
         price: 15,
+        editorial: 'Planeta',
     },
     {
         id: 2,
@@ -15,7 +17,9 @@ export const books = [
         author: "J.K. Rowling",
         summary: "Harry descubre que es un mago y asiste a Hogwarts, donde forja amistades, descubre secretos mágicos y enfrenta peligrosos enemigos.",
         year: 2024,
+        language: 'Español',
         price: 13,
+        editorial: 'Planeta',
     },
     {
         id: 3,
@@ -24,7 +28,9 @@ export const books = [
         author: "William Goldman",
         summary: "Una historia de aventuras, amor verdadero, espadachines y gigantes, contada como un cuento clásico con humor e ingenio.",
         year: 2024,
+        language: 'Español',
         price: 12,
+        editorial: 'Planeta',
     },
     {
         id: 4,
@@ -33,7 +39,9 @@ export const books = [
         author: "Christopher Paolini",
         summary: "Un joven granjero encuentra un misterioso huevo de dragón que lo lleva a convertirse en Jinete de Dragón y luchar contra un imperio opresor.",
         year: 2024,
+        language: 'Español',
         price: 14,
+        editorial: 'Planeta',
     },
     {
         id: 5,
@@ -42,6 +50,8 @@ export const books = [
         author: "C.S. Lewis",
         summary: "Cuatro hermanos descubren un mundo mágico al otro lado de un armario y ayudan a un león parlante a salvarlo de una bruja malvada.",
         year: 2024,
+        language: 'Español',
         price: 11,
+        editorial: 'Planeta',
     }
 ];

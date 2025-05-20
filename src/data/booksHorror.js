@@ -6,7 +6,9 @@ export const books = [
         author: "Stephen King",
         summary: "IT es una novela de terror que narra cómo un grupo de amigos enfrenta a una entidad maligna que adopta la forma de un payaso. La historia alterna entre su niñez y adultez, mientras intentan detener al monstruo que aterroriza su ciudad.",
         year: 2024,
+        language: 'Español',
         price: 12,
+        editorial: 'Planeta',
     },
     {
         id: 2,
@@ -15,7 +17,9 @@ export const books = [
         author: "Stephen King",
         summary: "Un hombre acepta un trabajo como cuidador de un hotel aislado con su familia, pero fuerzas sobrenaturales comienzan a afectar su mente, llevándolo a la locura.",
         year: 2024,
+        language: 'Español',
         price: 14,
+        editorial: 'Planeta',
     },
     {
         id: 3,
@@ -24,7 +28,9 @@ export const books = [
         author: "Bram Stoker",
         summary: "La clásica historia del conde Drácula, un vampiro que busca expandir su reino de terror en Inglaterra, mientras un grupo de personas intenta detenerlo.",
         year: 2024,
+        language: 'Español',
         price: 10,
+        editorial: 'Planeta',
     },
     {
         id: 4,
@@ -33,7 +39,9 @@ export const books = [
         author: "Mary Shelley",
         summary: "Un joven científico crea una criatura a partir de cuerpos muertos, pero pronto se da cuenta de que ha engendrado un ser con sentimientos, capaz de amor y venganza.",
         year: 2024,
+        language: 'Español',
         price: 11,
+        editorial: 'Planeta',
     },
     {
         id: 5,
@@ -42,7 +50,9 @@ export const books = [
         author: "William Peter Blatty",
         summary: "Una niña es poseída por una entidad demoníaca, y dos sacerdotes luchan contra el mal para salvarla en un aterrador exorcismo.",
         year: 2024,
+        language: 'Español',
         price: 13,
+        editorial: 'Planeta',
     },
     {
         id: 6,
@@ -51,6 +61,8 @@ export const books = [
         author: "H.P. Lovecraft",
         summary: "Una historia de horror cósmico en la que un investigador descubre indicios de un culto dedicado a una antigua deidad dormida llamada Cthulhu.",
         year: 2024,
+        language: 'Español',
         price: 9,
+        editorial: 'Planeta',
     }
 ];

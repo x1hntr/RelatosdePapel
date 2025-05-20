@@ -1,5 +1,5 @@
 import useCart from '../hooks/useCart';
-
+import '../styles/carrito.css';
 const Carrito = () => {
   const { cart, removeFromCart } = useCart();
 
@@ -15,7 +15,10 @@ const Carrito = () => {
 
   return (
     <div>
+      <ul>
       <h2>Carrito de Compras</h2>
+
+      </ul>
       {cart.length === 0 ? (<p>El carrito está vacío.</p>) : (
         <ul>
           {cart.map((item) => (
@@ -23,15 +26,19 @@ const Carrito = () => {
               <h3>{item.name}</h3>
                     <p><strong>Autor:</strong> {item.author}</p>
                     <p><strong>Precio:</strong> ${item.price}</p>
-                    <button  className="book__add-to-cart"
-                    onClick={() => removeToCartBook(item)}>Eliminar 🛒
+                    <button  className="book__remove"
+                    onClick={() => removeToCartBook(item)}>Eliminar 🗑️
                     </button>
             </div>   
           ))}
         </ul>
       )}
-    <p><strong>Total:</strong> ${cart.reduce((acc, item) => acc + item.price, 0)}</p>
-    <button  className="book__add-to-cart">Pagar 🛒 </button>
+      <ul>
+        <div className='book'>
+        <p><strong>Total:</strong> ${cart.reduce((acc, item) => acc + item.price, 0)}</p>
+        <button  className="book__add-to-cart">Pagar 💰 </button>
+      </div>  
+      </ul> 
     </div>
   );
 };

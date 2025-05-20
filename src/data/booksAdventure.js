@@ -6,7 +6,9 @@ export const books = [
         author: "Robert Louis Stevenson",
         summary: "Jim Hawkins encuentra un mapa del tesoro y se embarca en una emocionante aventura con piratas, traiciones y descubrimientos en una isla misteriosa.",
         year: 2024,
+        language: 'Español',
         price: 10,
+        editorial: 'Planeta',
     },
     {
         id: 2,
@@ -15,7 +17,9 @@ export const books = [
         author: "Mark Twain",
         summary: "Tom Sawyer, un niño travieso, vive emocionantes aventuras a orillas del río Misisipi, incluyendo búsquedas de tesoros y enfrentamientos con criminales.",
         year: 2024,
+        language: 'Español',
         price: 9,
+        editorial: 'Planeta',
     },
     {
         id: 3,
@@ -24,7 +28,9 @@ export const books = [
         author: "Jules Verne",
         summary: "Un científico, su sobrino y un guía viajan al interior del planeta a través de un volcán, descubriendo un mundo subterráneo lleno de maravillas y peligros.",
         year: 2024,
+        language: 'Español',
         price: 11,
+        editorial: 'Planeta',
     },
     {
         id: 4,
@@ -33,7 +39,9 @@ export const books = [
         author: "Daniel Defoe",
         summary: "Tras un naufragio, Crusoe queda atrapado en una isla desierta y debe aprender a sobrevivir en soledad durante años, enfrentando la naturaleza y sus propios temores.",
         year: 2024,
+        language: 'Español',
         price: 12,
+        editorial: 'Planeta',
     },
     {
         id: 5,
@@ -42,6 +50,8 @@ export const books = [
         author: "H. Rider Haggard",
         summary: "Allan Quatermain lidera una expedición por África en busca de las legendarias minas del rey Salomón, enfrentando terrenos hostiles y tribus desconocidas.",
         year: 2024,
+        language: 'Español',
         price: 13,
+        editorial: 'Planeta',
     }
 ];

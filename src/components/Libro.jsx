@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import portada from '../assets/portada.png';
 import useCart from '../hooks/useCart.jsx';
 import '../styles/libro.css';
 
@@ -20,25 +21,32 @@ const abrirDetalles = (libro) => {
 navigate(`/libro/${libro.id}`, { state: libro });  };
   
     return (
-      <div>
-        {libros.map((libro) => (
-          <div key={libro.id} className="book">
-            <h2 className="movie__title">
-                    {libro.name}
-            </h2>
-            <p><strong>Autor:</strong> {libro.author}</p>
-            <p><strong>Precio:</strong> ${libro.price}</p>
-            <button
-            className="book__add-to-cart"
-            onClick={() => abrirDetalles(libro)}
-          >Detalles 🛒
-          </button>
-            <button  className="book__add-to-cart"
-            onClick={() => addToCartBook(libro)}>AGREGAR 🛒
-            </button>
-          </div>
-        ))}
+     <div className="book-list">
+  {libros.map((libro) => (
+    <div key={libro.id} className="book-detail">
+      <img className="book-detail__image" src={portada} alt={libro.name} />
+      <div className="book-detail__info">
+        <h2 className="movie__title">{libro.name}</h2>
+        <p><strong>Autor:</strong> {libro.author}</p>
+        <p><strong>Año:</strong> {libro.year}</p>
+        <p><strong>Precio:</strong> ${libro.price}</p>
+        <button
+          className="book__detail"
+          onClick={() => abrirDetalles(libro)}
+        >
+          Detalles 🔍
+        </button>
+        <button
+          className="book__add-to-cart"
+          onClick={() => addToCartBook(libro)}
+        >
+          AGREGAR 🛒
+        </button>
       </div>
+    </div>
+  ))}
+</div>
+
     );
     
 };

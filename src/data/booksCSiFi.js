@@ -6,7 +6,9 @@ export const books = [
         author: "Frank Herbert",
         summary: "En un futuro lejano, Paul Atreides lucha por sobrevivir en el desértico planeta Arrakis, donde el control de una poderosa especia decide el destino del universo.",
         year: 2024,
+        language: 'Español',
         price: 14,
+        editorial: 'Planeta',
     },
     {
         id: 2,
@@ -15,7 +17,9 @@ export const books = [
         author: "George Orwell",
         summary: "En una sociedad totalitaria, Winston Smith desafía al Gran Hermano y lucha por la libertad de pensamiento en un mundo controlado por la vigilancia y la represión.",
         year: 2024,
+        language: 'Español',
         price: 11,
+        editorial: 'Planeta',
     },
     {
         id: 3,
@@ -24,7 +28,9 @@ export const books = [
         author: "Ray Bradbury",
         summary: "En un futuro donde los libros están prohibidos, un bombero encargado de quemarlos empieza a cuestionar el sistema y a buscar conocimiento prohibido.",
         year: 2024,
+        language: 'Español',
         price: 10,
+        editorial: 'Planeta',
     },
     {
         id: 4,
@@ -33,7 +39,9 @@ export const books = [
         author: "Isaac Asimov",
         summary: "Un matemático predice la caída de un imperio galáctico y crea una fundación para preservar el conocimiento y reducir la futura edad oscura.",
         year: 2024,
+        language: 'Español',
         price: 13,
+        editorial: 'Planeta',
     },
     {
         id: 5,
@@ -42,6 +50,8 @@ export const books = [
         author: "Orson Scott Card",
         summary: "Un niño prodigio es entrenado en una escuela militar espacial para liderar la defensa de la Tierra contra una raza alienígena.",
         year: 2024,
+        language: 'Español',
         price: 12,
+        editorial: 'Planeta',
     }
 ];

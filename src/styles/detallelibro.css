@@ -6,7 +6,7 @@
 }
 
 .book-detail__image {
-  width: 200px;
+  width: 150px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
@@ -24,5 +24,17 @@
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
+  margin: 1%;
+}
+
+.book__detail {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
   margin-top: 10px;
 }
+
