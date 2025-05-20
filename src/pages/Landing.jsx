@@ -11,8 +11,7 @@ const Landing = () => {
     const timeout = setTimeout(() => {
       navigate("/home");
     }, 5000);
-
-    return () => clearTimeout(timeout); // Limpieza del efecto
+    return () => clearTimeout(timeout);
   }, [navigate]);
 
   return (

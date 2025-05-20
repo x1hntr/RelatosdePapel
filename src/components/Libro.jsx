@@ -12,7 +12,7 @@ const Libro = ({ libros }) => {
     navigate(`/libro/${libro.id}`, { state: libro });
   };
 
-  const handleSearch = (e) => {
+  const busquedaLibro = (e) => {
     setSearchTerm(e.target.value);
   };
 
@@ -22,7 +22,7 @@ const Libro = ({ libros }) => {
 
   return (
     <div className="book-list">
-      <Buscador value={searchTerm} onChange={handleSearch} />
+      <Buscador value={searchTerm} onChange={busquedaLibro} />
       {librosFiltrados.length > 0 ? (
         librosFiltrados.map((libro) => (
           <div key={libro.id} className="book-detail">

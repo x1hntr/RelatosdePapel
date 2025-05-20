@@ -17,7 +17,7 @@ const Carrito = () => {
     }
   };
 
-  const total = cart.reduce((acc, item) => acc + item.price, 0);
+const total = cart.reduce((acc, item) => acc + item.price, 0);
  const goToCheckout = () => {
     if (cart.length === 0) {
       alert('El carrito está vacío.');

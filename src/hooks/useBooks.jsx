@@ -1,16 +1,13 @@
 import { useEffect, useState } from "react";
-
 import { books as booksAdventure } from '../data/booksAdventure';
 import { books as booksCSiFi } from '../data/booksCSiFi';
 import { books as booksFantasy } from '../data/booksFantasy';
 import { books as booksHorror } from '../data/booksHorror';
 import { books as booksRomance } from '../data/booksRomance';
 
-
 const useBooks = (category) => {
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
-
     useEffect(()=>{
         const fetchBooks = async () => {
             setLoading(true);
