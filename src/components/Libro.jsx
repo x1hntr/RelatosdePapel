@@ -15,14 +15,13 @@ const addToCartBook = (libro) => {
   } else {
     console.log("Cancelado");
   }
-
 };
 const abrirDetalles = (libro) => {
 navigate(`/libro/${libro.id}`, { state: libro });  };
   
     return (
      <div className="book-list">
-  {libros.map((libro) => (
+    {libros.map((libro) => (
     <div key={libro.id} className="book-detail">
       <img className="book-detail__image" src={portada} alt={libro.name} />
       <div className="book-detail__info">
@@ -30,18 +29,8 @@ navigate(`/libro/${libro.id}`, { state: libro });  };
         <p><strong>Autor:</strong> {libro.author}</p>
         <p><strong>Año:</strong> {libro.year}</p>
         <p><strong>Precio:</strong> ${libro.price}</p>
-        <button
-          className="book__detail"
-          onClick={() => abrirDetalles(libro)}
-        >
-          Detalles 🔍
-        </button>
-        <button
-          className="book__add-to-cart"
-          onClick={() => addToCartBook(libro)}
-        >
-          AGREGAR 🛒
-        </button>
+        <button className="book__detail" onClick={() => abrirDetalles(libro)}>Detalles 🔍</button>
+        <button className="book__add-to-cart" onClick={() => addToCartBook(libro)}>Agregar 🛒</button>
       </div>
     </div>
   ))}

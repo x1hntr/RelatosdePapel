@@ -1,6 +1,6 @@
 export const books = [
     {
-        id: 1,
+        id: 22,
         category: 5,
         name: "Orgullo y prejuicio",
         author: "Jane Austen",
@@ -11,7 +11,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 2,
+        id: 23,
         category: 5,
         name: "Los puentes de Madison County",
         author: "Robert James Waller",
@@ -22,7 +22,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 3,
+        id: 24,
         category: 5,
         name: "Bajo la misma estrella",
         author: "John Green",
@@ -33,7 +33,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 4,
+        id: 25,
         category: 5,
         name: "Posdata: Te amo",
         author: "Cecelia Ahern",
@@ -44,7 +44,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 5,
+        id: 26,
         category: 5,
         name: "Un paseo para recordar",
         author: "Nicholas Sparks",

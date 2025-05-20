@@ -1,6 +1,6 @@
 export const books = [
     {
-        id: 1,
+        id: 6,
         category: 2,
         name: "Dune",
         author: "Frank Herbert",
@@ -11,7 +11,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 2,
+        id: 7,
         category: 2,
         name: "1984",
         author: "George Orwell",
@@ -22,7 +22,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 3,
+        id: 8,
         category: 2,
         name: "Fahrenheit 451",
         author: "Ray Bradbury",
@@ -33,7 +33,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 4,
+        id: 9,
         category: 2,
         name: "Fundación",
         author: "Isaac Asimov",
@@ -44,7 +44,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 5,
+        id: 10,
         category: 2,
         name: "El juego de Ender",
         author: "Orson Scott Card",

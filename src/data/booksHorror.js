@@ -1,6 +1,6 @@
 export const books = [
     {
-        id: 1,
+        id: 16,
         category: 4,
         name: "IT",
         author: "Stephen King",
@@ -11,7 +11,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 2,
+        id: 17,
         category: 4,
         name: "El resplandor",
         author: "Stephen King",
@@ -22,7 +22,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 3,
+        id: 18,
         category: 4,
         name: "Drácula",
         author: "Bram Stoker",
@@ -33,7 +33,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 4,
+        id: 19,
         category: 4,
         name: "Frankenstein",
         author: "Mary Shelley",
@@ -44,7 +44,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 5,
+        id: 20,
         category: 4,
         name: "El exorcista",
         author: "William Peter Blatty",
@@ -55,7 +55,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 6,
+        id: 21,
         category: 4,
         name: "La llamada de Cthulhu",
         author: "H.P. Lovecraft",

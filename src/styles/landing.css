@@ -18,12 +18,14 @@
 }
 
 .landing__boton {
-  margin-top: 2rem;
-  padding: 0.5rem 1rem;
-  background-color: #1e1e2f;
-  color: white;
+  background-color: #55efc4;
+  color: rgb(0, 0, 0);
   border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .landing__logo {

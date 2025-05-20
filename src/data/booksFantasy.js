@@ -1,6 +1,6 @@
 export const books = [
     {
-        id: 1,
+        id: 11,
         category: 3,
         name: "El señor de los anillos: La comunidad del anillo",
         author: "J.R.R. Tolkien",
@@ -11,7 +11,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 2,
+        id: 12,
         category: 3,
         name: "Harry Potter y la piedra filosofal",
         author: "J.K. Rowling",
@@ -22,7 +22,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 3,
+        id: 13,
         category: 3,
         name: "La princesa prometida",
         author: "William Goldman",
@@ -33,7 +33,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 4,
+        id: 14,
         category: 3,
         name: "Eragon",
         author: "Christopher Paolini",
@@ -44,7 +44,7 @@ export const books = [
         editorial: 'Planeta',
     },
     {
-        id: 5,
+        id: 15,
         category: 3,
         name: "Las crónicas de Narnia: El león, la bruja y el armario",
         author: "C.S. Lewis",

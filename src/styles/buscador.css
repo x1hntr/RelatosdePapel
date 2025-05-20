@@ -4,8 +4,29 @@
     width: 90%;
     padding: 0.6rem 1rem;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 6px;
     padding: 0.6rem 1rem;
 
+}
+.book-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.book-search__input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.book-search__button {
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #ffffff; /* o el color que uses */
+  border: none;
+  border-radius: 5px;
+  color: white;
 }

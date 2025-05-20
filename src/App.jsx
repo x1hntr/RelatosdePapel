@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Landing from "./pages/Landing";
 
 import Carrito from "./components/Carrito";
+import Checkout from "./components/Checkout";
 import DetalleLibro from './components/DetalleLibro';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -20,6 +21,7 @@ function AppContent(){
         <Route path="/libro" element={<Libro />} />
         <Route path="/category/:categoria" element={<Home />} />
         <Route path="/carrito" element={<Carrito />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/libro/:id" element={<DetalleLibro />} />
 
       </Routes>

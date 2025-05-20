@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const useCart = () => {
-  const [cart, setCart] = useState(() => {
+  const useCart = () => {
+    const [cart, setCart] = useState(() => {
     const stored = localStorage.getItem("cart");
     return stored ? JSON.parse(stored) : [];
   });
@@ -10,18 +10,19 @@ const useCart = () => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
 
-  //AGREGAR LOS LIBROS AL CARRITO
-  const addToCart = (libros) => {
-    setCart(prev => [...prev, libros]);
-  };
+ const addToCart = (libro) => {
+  const updatedCart = [...cart, libro];
+  setCart(updatedCart);
+  localStorage.setItem("cart", JSON.stringify(updatedCart));
+};
 
-  //ELIMINAR LOS LIBROS DEL CARRITO
+  
+
   const removeFromCart = (id) => {
     setCart(prev => prev.filter(item => item.id !== id));
   };
 
   const clearCart = () => setCart([]);
-
   return { cart, addToCart, removeFromCart, clearCart };
 };
 

@@ -1,4 +1,5 @@
 import '../styles/buscador.css';
+
 const Buscador = () => {
     return (
         <div className="book-search">
@@ -7,6 +8,7 @@ const Buscador = () => {
                 placeholder="Buscar"
                 className="book-search__input"
             />
+            <button className="book-search__button">🔍</button>
         </div>
     );
 };
