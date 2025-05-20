@@ -6,14 +6,15 @@ import useBooks from '../hooks/useBooks';
 import '../styles/home.css';
 
 const Home = () => {
-    const {categoria} = useParams();
-    const {books, loading} = useBooks(categoria);
+    const { categoria } = useParams();
+    const categoriaSeleccionada = categoria || 'aventura';
+    const { books, loading } = useBooks(categoriaSeleccionada);
 
     return (
         <div className="home-page">
             <Sidebar />
             <main className="home-page__content">
-                 <h1>{categoria ? `Categoría: ${categoria}` : 'Los más vendidos:'}</h1>
+                <h1>{categoria ? `Categoría: ${categoria}` : 'Recomendaciones:'}</h1>
                 {loading ? (
                     <p>Cargando libros...</p>
                 ) : (

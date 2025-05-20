@@ -15,9 +15,6 @@ import { useEffect, useState } from "react";
   setCart(updatedCart);
   localStorage.setItem("cart", JSON.stringify(updatedCart));
 };
-
-  
-
   const removeFromCart = (id) => {
     setCart(prev => prev.filter(item => item.id !== id));
   };
