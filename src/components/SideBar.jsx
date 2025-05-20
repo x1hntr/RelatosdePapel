@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import Buscador from '../components/Buscador';
+
+
 import '../styles/sidebar.css';
 
 const SideBar = () => {
@@ -14,7 +15,6 @@ const SideBar = () => {
     return (
         <div className="home-page">
             <aside className="sidebar">
-                 <Buscador/>
                 <h2 className="sidebar__title">Categorías:</h2>
                 <nav className="sidebar__menu">
                     {categorias.map((categoria) => (
